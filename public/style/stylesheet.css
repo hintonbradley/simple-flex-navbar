@@ -42,7 +42,7 @@ nav .links-wrapper ul.right {
 	text-align: right;
 }
 
-li a:hover {
+nav .links-wrapper li a:hover {
     background-color: #cbcbcb;
 }
 
@@ -51,10 +51,10 @@ li a:hover {
 }
 
 @media screen and (max-width: 568px) {
-	nav .menu {
+	nav .toggle .menu {
 		text-align: right;
 	}
-	nav .menu i {
+	nav .toggle .menu i {
 		font-size: 36px;
 		color: #000;
     	padding: 7px;
