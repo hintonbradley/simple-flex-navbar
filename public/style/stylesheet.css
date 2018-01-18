@@ -47,7 +47,7 @@ li a:hover {
 }
 
 .lorem {
-	margin: 50px 10vw;
+	padding: 50px 10vw;
 }
 
 @media screen and (max-width: 568px) {
@@ -75,8 +75,16 @@ li a:hover {
 	}
 	nav .links-wrapper ul li {
 		display: block;
-		text-align: center;
-		padding: 16px;
+		padding: 0px;
+	}
+	nav .links-wrapper ul li {
+		max-width: 568px
+	}
+	nav .links-wrapper ul li a {
+		display: block;
+		width: 80px;
+		padding: 16px 100% 16px 16px;
+		text-align: left;
 	}
 	nav .links-wrapper.active {
 		display: block;
