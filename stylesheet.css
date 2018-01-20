@@ -1,0 +1,64 @@
+body {
+	margin: 0px;
+}
+
+nav .links-wrapper { 
+	display: flex;
+	width: 100%;
+	background-color: lightgrey;
+	position: fixed;
+  	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav .links-wrapper ul {
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+	font-size: 16px;
+	padding: 0px;
+}
+
+nav .links-wrapper ul.left, nav .links-wrapper ul.right {
+	flex: 1;
+}
+
+nav .links-wrapper ul.center {
+	flex: 4;
+}
+
+nav .links-wrapper ul li {
+	list-style: none;
+}
+
+nav ul.right  li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav .links-wrapper ul li a {
+	text-decoration: none;
+	padding: 16px 2vw;
+	color: #000;
+    font-weight: bold;
+}
+
+nav .links-wrapper ul.right li a {
+	height: 50px;
+	padding: 0px;
+}
+
+nav .links-wrapper ul.right .profile-pic {
+	height: 50px;
+}
+
+nav .links-wrapper li a:hover {
+    background-color: #cbcbcb;
+}
+
+.filler-text {
+	margin: 60px 6vw;
+}
