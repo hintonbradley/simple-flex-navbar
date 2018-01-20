@@ -1,24 +1,21 @@
 body {
 	margin: 0px;
+	min-width: 300px;
 }
 
 nav .links-wrapper { 
-	display: flex;
 	width: 100%;
 	background-color: lightgrey;
 	position: fixed;
   	top: 0;
 	display: flex;
-	justify-content: center;
 	align-items: center;
 	min-width: 300px;
 }
 
 nav .links-wrapper ul {
 	display: flex;
-	justify-content: center;
 	margin: 0px;
-	font-size: 16px;
 	padding: 0px;
 }
 
@@ -26,8 +23,17 @@ nav .links-wrapper ul.left, nav .links-wrapper ul.right {
 	flex: 1;
 }
 
+nav .links-wrapper ul.left {
+	justify-content: flex-start;
+}
+
+nav .links-wrapper ul.right {
+	justify-content: flex-end;
+}
+
 nav .links-wrapper ul.center {
 	flex: 4;
+	justify-content: center;
 }
 
 nav .links-wrapper ul li {
@@ -36,8 +42,6 @@ nav .links-wrapper ul li {
 
 nav ul.right  li {
 	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 nav .links-wrapper ul li a {
@@ -63,5 +67,8 @@ nav .links-wrapper li a:hover {
 .filler-text {
 	margin: 60px 6vw;
 	text-align: justify;
-	min-width: 300px;
+}
+
+.filler-text h3 {
+	text-align: center;
 }
